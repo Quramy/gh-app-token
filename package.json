@@ -1,0 +1,25 @@
+{
+  "name": "gh-app-token",
+  "version": "1.0.0",
+  "bin": {
+    "gh-app-token": "cil.js"
+  },
+  "description": "Get and display GitHub app token.",
+  "main": "auth.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["github app"],
+  "author": {
+    "name": "Quramy",
+    "email": "yosuke.kurami@gmail.com"
+  },
+  "repository": "https://github.com/Quramy/gh-app-token.git",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^8.0.1",
+    "minimist": "^1.2.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
