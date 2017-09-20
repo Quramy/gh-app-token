@@ -1,8 +1,8 @@
 {
   "name": "gh-app-token",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
-    "gh-app-token": "cil.js"
+    "gh-app-token": "cli.js"
   },
   "description": "Get and display GitHub app token.",
   "main": "auth.js",
